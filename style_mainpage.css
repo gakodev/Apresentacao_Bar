@@ -1,0 +1,25 @@
+@import url(cor.css);
+
+header {
+
+    background-color: var(--marrom);
+
+}
+
+nav {
+    display: flex;
+    
+
+}
+
+nav ul {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+
+}
+nav li {
+    text-decoration: none;
+
+}
