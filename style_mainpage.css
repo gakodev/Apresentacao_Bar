@@ -4,7 +4,7 @@ header {
 
     background-color: var(--marrom);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position: sticky;
     width: 100%;
     top: 0;
 }
@@ -13,19 +13,21 @@ nav {
     display: flex;
     width: 200px;
     justify-content: space-between;
-
+    position: inherit    ;
 }
 
 nav ul {
-    color: white;
-
-
+    color: white
 }
 
 nav li {
     list-style: none;
-    color: aqua;
 } 
+
+nav ul li {
+    padding: 2px 5px; 
+    display: inline-flex;
+}
 
 #Home, #Sobre_nos, #Reservas, #Unidades, #Cardapio {
 
