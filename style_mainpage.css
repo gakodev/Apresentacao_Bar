@@ -1,19 +1,23 @@
 @import url(cor.css);
 
 header {
-
+border: solid blue;
     background-color: var(--marrom);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     position: sticky;
-    width: 100%;
-    top: 0;
+    width: auto;
+    top: 0%;
+    display: flex;
+    
 }
 
 nav {
+    /*border: solid orange;*/
+    position: inherit;
     display: flex;
-    width: 200px;
-    justify-content: space-between;
-    position: inherit    ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -25,11 +29,52 @@ nav li {
 } 
 
 nav ul li {
-    padding: 2px 5px; 
+    padding: 15px 20px; 
     display: inline-flex;
 }
+
+ul{
+
+}
+
+li {
+    float: left;
+    align-content: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active){
+    background-color: #292929;
+    color: brown;
+}
+
+.ativo {
+background-color: aqua;
+color: white;
+
+}
+
 
 #Home, #Sobre_nos, #Reservas, #Unidades, #Cardapio {
 
     color: white;
 } 
+
+#menu { 
+ 
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+
+}
+
